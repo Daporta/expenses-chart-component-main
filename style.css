@@ -1,0 +1,195 @@
+:root {
+    --softRed: hsl(10, 79%, 65%);
+    --cyan: hsl(186, 34%, 60%); 
+    --darkBrown: hsl(25, 47%, 15%);
+    --mediumBrown: hsl(28, 10%, 53%);
+    --cream: hsl(27, 66%, 92%);
+    --veryPaleOrange: hsl(33, 100%, 98%);
+}
+
+body {
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    background-color: var(--cream);
+}
+
+.app {
+    height: 100vh;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.centerY {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardHolder {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.headApp {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--softRed);
+    border-radius: 10px;
+    height: 70px;
+}
+
+.accountInfo {
+    color: var(--cream);
+    flex-direction: column;
+    margin-left: 13px;
+    margin-top: -3px;
+}
+
+.accountInfo p {
+    font-size: 10px;
+    margin-bottom: 4px;
+}
+
+.accountInfo span {
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 6px;
+}
+
+.logoHolder {
+    display: flex;
+    margin-right: 20px;
+}
+
+.logoHolder img {
+    width: 40px;
+}
+
+.bodyApp {
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: var(--veryPaleOrange);
+}
+
+.graph {
+    margin-top: 20px;
+}
+
+.graph h1 {
+    font-size: 16px;
+    text-align: left;
+    margin-left: 20px;
+    color: var(--darkBrown);
+}
+
+.weekDays {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 20px;
+    font-size: 8px;
+    color: var(--mediumBrown);
+    width: 260px;
+}
+
+.weekDays p {
+    width: 15px;
+}
+
+.footerApp {
+    width: 260px;
+    margin-left: 20px;
+    border-top: 1px solid #F3ECE4;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.footerLeft {
+    margin-top: 10px;
+}
+
+.footerLeft p {
+    font-size: 9px;
+    color: var(--mediumBrown);
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.footerLeft span {
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--darkBrown);
+}
+
+.footerRight {
+    text-align: right;
+    align-self: flex-end;
+}
+
+.footerRight p {
+    font-size: 9px;
+    color: var(--mediumBrown);
+    margin-top: 0px;
+}
+
+.footerRight span {
+    font-size: 10px;
+    color: var(--darkBrown);
+    font-weight: 700;
+}
+
+#graphBar {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    height: 120px;
+    margin: auto;
+}
+
+.divBar {
+    display: flex;
+    flex-direction: column;
+    width: 25px;
+    padding: 0;
+    margin: 5px;
+    height: 120px;
+    justify-content: end;
+}
+
+.divSpan {
+    width: 35px;
+    background-color: var(--darkBrown);
+    color: var(--cream);
+    border-radius: 2px;
+    padding: 5px 0;
+    font-size: 9px;
+    font-weight: 700;
+    align-self: center;
+    display: none;
+}
+
+.bar {
+    border-radius: 3px;
+    background-color: var(--softRed);
+    width: 100%;
+    margin-top: 5px;
+    align-self: center;
+}
+
+.bar:hover {
+    opacity: 0.7;
+}
+
+.bar:focus {
+    background-color: #B4DFE5;
+}

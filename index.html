@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+  </style>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="app center">
+
+    <div class="cardHolder">
+
+      <div class="headApp">
+        <div class="accountInfo centerY">
+          <p>My balance</p>
+          <span>$921.48</span>
+        </div>
+
+        <div class="logoHolder centerY">
+          <img src="./images/logo.svg" alt="">
+        </div>
+      </div>
+
+      <div class="bodyApp">
+        <div class="graph">
+          <h1>Spending - Last 7 days</h1>
+          <div id="graphBar"></div>
+          <div class="weekDays">
+            <p>mon</p>
+            <p>tue</p>
+            <p>wed</p>
+            <p>thu</p>
+            <p>fri</p>
+            <p>sat</p>
+            <p>sun</p>
+          </div>
+        </div>
+
+        <div class="footerApp">
+          <div class="footerLeft">
+            <p>Total this month</p>
+            <span>$478.33</span>
+          </div>
+          <div class="footerRight">
+            <span>+2.4%</span>
+            <p>from last month</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Daniel Daporta</a>.
+  </div>
+
+  <script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
